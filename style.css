@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f5faff;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  header {
+    background-color: #008fd4;
+    color: white;
+    padding: 1rem 0;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .hero {
+    background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+    color: #004466;
+    text-align: center;
+    padding: 4rem 1rem;
+  }
+  
+  .hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .features {
+    background-color: white;
+    padding: 3rem 1rem;
+  }
+  
+  .features h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .cards {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background-color: #e7f4fa;
+    border-radius: 10px;
+    padding: 1.5rem;
+    flex: 1;
+    min-width: 250px;
+    max-width: 300px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #008fd4;
+    color: white;
+    margin-top: 2rem;
+  }
+  
